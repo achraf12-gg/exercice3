@@ -9,9 +9,9 @@ public void testconvert(){
     //GIVEN
     ArabicRomanNumerals number=new ArabicRomanNumerals();
     //WHEN
-    String result = number.convert(1);
+    String result = number.convert(2);
     //THEN
-    assertThat(result).isEqualTo("I");
+    assertThat(result).isEqualTo("II");
 
 }
 
